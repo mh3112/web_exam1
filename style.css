@@ -1,27 +1,28 @@
 body
 {
-  margin-bottom: auto;
   background-color: #B2DFEE;
+  margin: 0 auto; /*ko dung cai nay thi body mac dinh 8px;*/
 }
 
 .title_bar
 {
   background-color: #F5F5F5;
-  width: 900px;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5px;
+  border: 1px solid #CFCFCF;
 }
 .main_content
 {
   padding-top: 25px;
   padding-bottom: 25px;
-  width: 900px;
-  height: 500px;
   border: 1px solid #CFCFCF;
+/*  border-top: 1px solid #CFCFCF;*/
   background-color: white;
   margin: 0 auto;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .form_row input
@@ -37,7 +38,7 @@ body
   text-align: right;
   margin-right: 30px;
   float: left;
-  width: 300px;
+  width: 350px;
 }
 
 select.form_select
@@ -51,16 +52,16 @@ select.form_select
 .explain
 {
   font-size: 14px;
-  padding-left: 330px;
+  padding-left: 380px;
 
 }
 
 .form_button
 {
+  border: 1px solid #CFCFCF;
   background-color: #F5F5F5;
-  width: 900px;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  margin-left: 15%;
+  text-indent: 50%;
+  margin-right: 15%;
+  padding: 7px;
 }
