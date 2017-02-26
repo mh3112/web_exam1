@@ -1,0 +1,66 @@
+body
+{
+  margin-bottom: auto;
+  background-color: #B2DFEE;
+}
+
+.title_bar
+{
+  background-color: #F5F5F5;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.main_content
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 900px;
+  height: 500px;
+  border: 1px solid #CFCFCF;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.form_row input
+{
+  width: 50px;
+  /*margin-left: 90px; di chuyen input cach label 1 khoang*/
+  display: block;
+  float: left;
+}
+
+.form_row label
+{
+  text-align: right;
+  margin-right: 30px;
+  float: left;
+  width: 300px;
+}
+
+select.form_select
+{
+  width: 250px;
+  float: left;
+  text-align: left;
+}
+
+
+.explain
+{
+  font-size: 14px;
+  padding-left: 330px;
+
+}
+
+.form_button
+{
+  background-color: #F5F5F5;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
