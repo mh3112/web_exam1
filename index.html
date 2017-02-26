@@ -4,244 +4,152 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   <title>User</title>
-  </head>
+</head>
 
-  <body>
-    <div class="title_bar">
-      <h3> Update User Preferences </h3>
-    </div>
+<body>
+  <div class="title_bar">
+    <h3> Update User Preferences </h3>
+  </div>
 
-    <form class="main_content" action="index.html" method="post">
+  <form class="main_content" action="index.html" method="post">
 
-      <div class="form_block">
-        <div class="form_row">
+    <div class="form_block">
+      <div class="form_row">
         <label for="page_size">Page Size <font color="red">*</font></label>
-          <input type="text" autofocus="true" autocomplete="off">
-        </div>
+        <input type="text" autofocus="true" autocomplete="off">
+      </div>
       <br>
-          <p class="explain">
-            Number of Issues displayed per Issue Navigator page
-          </p>
-        </div>
-
-      <div class="form_block">
-        <div class="form_row">
-            <label for="email_type">Email type</label>
-          <select class="form_select" name="">
-            <option>HTML</option>
-            <option>aaaa</option>
-            <option>bbbb</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-            Outgoing email format
-          </p>
-        </div>
-
-        <div class="form_block">
-          <div class="form_row">
-          <label for="language">Language</label>
-          <select class="form_select" name="language">
-            <option>English (United States) [Default]</option>
-            <option>Vietnamese</option>
-            <option>Japanese</option>
-            <option>Frances</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-          </p>
-        </div>
-        </div>
-
-          <div class="form_block">
-          <div class="form_row">
-          <label for="time_zone1">Time Zone</label>
-          <select class="form_select" name="time_zone">
-            <option>Australia</option>
-            <option>Vietnam</option>
-            <option>Japan</option>
-            <option>France</option>
-          </select>
-        </div>
-        <br />
-          <p class="explain">
-          </p>
-        </div>
-
-          <div class="form_block">
-            <div class="form_row">
-          <label for="time_zone2"> &nbsp; </label> <!-- &nbsp la ki tu trang-->
-          <select class="form_select" name="time_zone">
-            <option>(GMT +10:00) Sydney</option>
-            <option>(UTC +07:00) Bangkok, Hanoi, Jakarta</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-            The time zone used when showing date time information.
-          </p>
-        </div>
-
-        <div class="form_block">
-          <div class="form_row">
-          <label for="my_changes">My Changes</label>
-          <select class="form_select" name="my_changes">
-            <option>Do not notify me</option>
-            <option>aaaaaaaaa</option>
-            <option>bbbbbbbbb</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-            Whether to email notification of any changes you make.
-          </p>
-        </div>
-
-        <div class="form_block">
-          <div class="form_row">
-          <label for="sharing">Sharing</label>
-          <select class="form_select" name="sharing">
-            <option>Unshared</option>
-            <option>Shared</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-            Whether to share Filters & Dashboards by default.
-          </p>
-        </div>
-
-        <div class="form_block">
-          <div class="form_row">
-          <label for="keyboard">Keyboard Shortcuts</label>
-          <select class="form_select" name="keyboard">
-            <option>Enabled</option>
-            <option>Disable</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-            Whether all keyboard shortcuts will work.
-          </p>
-        </div>
-
-        <div class="form_block">
-          <div class="form_row">
-          <label for="autowatch">Autowatch</label>
-          <select class="form_select" name="autowatch">
-            <option>Inherit from global settings</option>
-            <option>aaaaaaaaa</option>
-            <option>bbbbbbbbb</option>
-          </select>
-        </div>
-        <br>
-          <p class="explain">
-            Issues that you create or comment on will automatically be
-            <br>
-            watched for future changes.
-          </p>
-        </div>
-    </form>
-
-    <div class="form_button">
-      <a href="#" class="btnUpdate">Update</a>
-
-      <style type="text/css">
-      .btnUpdate {
-        -moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
-        box-shadow:inset 0px 1px 0px 0px #d9fbbe;
-        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
-        background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
-        background-color:#b8e356;
-        -webkit-border-top-left-radius:6px;
-        -moz-border-radius-topleft:6px;
-        border-top-left-radius:6px;
-        -webkit-border-top-right-radius:6px;
-        -moz-border-radius-topright:6px;
-        border-top-right-radius:6px;
-        -webkit-border-bottom-right-radius:6px;
-        -moz-border-radius-bottomright:6px;
-        border-bottom-right-radius:6px;
-        -webkit-border-bottom-left-radius:6px;
-        -moz-border-radius-bottomleft:6px;
-        border-bottom-left-radius:6px;
-        text-indent:0;
-        border:1px solid #83c41a;
-        display:inline-block;
-        color:#ffffff;
-        font-family:Arial;
-        font-size:15px;
-        font-weight:normal;
-        font-style:normal;
-        height:30px;
-        line-height:30px;
-        width:71px;
-        text-decoration:none;
-        text-align:center;
-        text-shadow:1px 1px 0px #86ae47;
-      }
-      .btnUpdate:hover {
-        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
-        background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
-        background-color:#a5cc52;
-      }.btnUpdate:active {
-        position:relative;
-        top:1px;
-      }</style>
-
-      <a href="#" class="btnCancel">Cancel</a>
-
-      <style type="text/css">
-      .btnCancel {
-        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-        box-shadow:inset 0px 1px 0px 0px #ffffff;
-        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
-        background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
-        background-color:#f9f9f9;
-        -webkit-border-top-left-radius:6px;
-        -moz-border-radius-topleft:6px;
-        border-top-left-radius:6px;
-        -webkit-border-top-right-radius:6px;
-        -moz-border-radius-topright:6px;
-        border-top-right-radius:6px;
-        -webkit-border-bottom-right-radius:6px;
-        -moz-border-radius-bottomright:6px;
-        border-bottom-right-radius:6px;
-        -webkit-border-bottom-left-radius:6px;
-        -moz-border-radius-bottomleft:6px;
-        border-bottom-left-radius:6px;
-        text-indent:0;
-        border:1px solid #dcdcdc;
-        display:inline-block;
-        color:#666666;
-        font-family:Arial;
-        font-size:15px;
-        font-weight:normal;
-        font-style:normal;
-        height:30px;
-        line-height:30px;
-        width:71px;
-        text-decoration:none;
-        text-align:center;
-        text-shadow:1px 1px 0px #ffffff;
-      }
-      .btnCancel:hover {
-        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
-        background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
-        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
-        background-color:#e9e9e9;
-      }.btnCancel:active {
-        position:relative;
-        top:1px;
-      }</style>
-
+      <p class="explain">
+        Number of Issues displayed per Issue Navigator page
+      </p>
     </div>
-  </body>
-  </html>
+
+    <div class="form_block">
+      <div class="form_row">
+        <label for="email_type">Email type</label>
+        <select class="form_select" name="">
+          <option>HTML</option>
+          <option>aaaa</option>
+          <option>bbbb</option>
+        </select>
+      </div>
+      <br>
+      <p class="explain">
+        Outgoing email format
+      </p>
+    </div>
+
+    <div class="form_block">
+      <div class="form_row">
+        <label for="language">Language</label>
+        <select class="form_select" name="language">
+          <option>English (United States) [Default]</option>
+          <option>Vietnamese</option>
+          <option>Japanese</option>
+          <option>Frances</option>
+        </select>
+      </div>
+      <br>
+      <p class="explain">
+      </p>
+    </div>
+  </div>
+
+  <div class="form_block">
+    <div class="form_row">
+      <label for="time_zone1">Time Zone</label>
+      <select class="form_select" name="time_zone">
+        <option>Australia</option>
+        <option>Vietnam</option>
+        <option>Japan</option>
+        <option>France</option>
+      </select>
+    </div>
+    <br />
+    <p class="explain">
+    </p>
+  </div>
+
+  <div class="form_block">
+    <div class="form_row">
+      <label for="time_zone2"> &nbsp; </label> <!-- &nbsp la ki tu trang-->
+      <select class="form_select" name="time_zone">
+        <option>(GMT +10:00) Sydney</option>
+        <option>(UTC +07:00) Bangkok, Hanoi, Jakarta</option>
+      </select>
+    </div>
+    <br>
+    <p class="explain">
+      The time zone used when showing date time information.
+    </p>
+  </div>
+
+  <div class="form_block">
+    <div class="form_row">
+      <label for="my_changes">My Changes</label>
+      <select class="form_select" name="my_changes">
+        <option>Do not notify me</option>
+        <option>aaaaaaaaa</option>
+        <option>bbbbbbbbb</option>
+      </select>
+    </div>
+    <br>
+    <p class="explain">
+      Whether to email notification of any changes you make.
+    </p>
+  </div>
+
+  <div class="form_block">
+    <div class="form_row">
+      <label for="sharing">Sharing</label>
+      <select class="form_select" name="sharing">
+        <option>Unshared</option>
+        <option>Shared</option>
+      </select>
+    </div>
+    <br>
+    <p class="explain">
+      Whether to share Filters & Dashboards by default.
+    </p>
+  </div>
+
+  <div class="form_block">
+    <div class="form_row">
+      <label for="keyboard">Keyboard Shortcuts</label>
+      <select class="form_select" name="keyboard">
+        <option>Enabled</option>
+        <option>Disable</option>
+      </select>
+    </div>
+    <br>
+    <p class="explain">
+      Whether all keyboard shortcuts will work.
+    </p>
+  </div>
+
+  <div class="form_block">
+    <div class="form_row">
+      <label for="autowatch">Autowatch</label>
+      <select class="form_select" name="autowatch">
+        <option>Inherit from global settings</option>
+        <option>aaaaaaaaa</option>
+        <option>bbbbbbbbb</option>
+      </select>
+    </div>
+    <br>
+    <p class="explain">
+      Issues that you create or comment on will automatically be
+      <br>
+      watched for future changes.
+    </p>
+  </div>
+</form>
+
+<div class="form_button">
+  <a href="#" class="btnUpdate">Update</a>
+  <!-- <button type="button">Update</button> -->
+  <a href="#" class="btnCancel">Cancel</a>
+  <!-- <button type="button">Cancel</button> -->
+</div>
+</body>
+</html>
